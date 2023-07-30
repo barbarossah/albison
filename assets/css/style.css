@@ -51,3 +51,175 @@ a {
   text-align: center;
   margin-top: 22px;
 }
+
+
+/* SEARCH PANEL START */
+
+.search-panel  {
+  text-align: center;
+}
+
+.search-panel button {
+  width: 20px;
+  height: 20px;
+  background-color: black;
+  border-radius: 50%;
+}
+
+.search-panel form {
+  display: flex;
+  justify-content: center;
+}
+
+/* SEARCH PANEL END*/
+
+/* POPULAR CATEGORIES START */
+
+.popular-category {
+  text-align: center;
+}
+
+.popular-category .cards {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1154px;
+  margin: 36px auto 54px;
+  gap: 23px 10px;
+
+}
+
+.popular-category button {
+  padding: 17px 84px 21px;
+  border-radius: 100px;
+}
+
+/* POPULAR CATEGORIES END */
+
+/* GOTOVIYE KOMPLEKTY START */
+.komplekty {
+  width: 1110px;
+  margin: 70px auto;
+}
+
+.komplekty .image-set div {
+  display: inline-block;
+  width: 350px;
+  margin-left: 24px;
+}
+
+.komplekty .image-set div img:first-child {
+  margin-bottom: 7px;
+}
+
+/* GOTOVIYE KOMPLEKTY END*/
+
+/* NOVIYE TOVARY START */
+
+.noviye-tovary h2 {
+  margin-left: 53px; 
+}
+
+.noviye-cards {
+  display: flex;
+  justify-content: space-evenly;
+
+}
+
+.noviye-card {
+  margin: 24.6px 0 0;
+  width: 238px;
+  border: 1px solid #efefef;
+  padding: 20px 15px 20px 16px;
+}
+
+.noviye-card .image {
+  display: inline-block;
+  margin-right: 18px;
+  margin-bottom: 23.6px;
+}
+
+.noviye-card .assessment {
+  display: inline-block;
+  width: 20px;
+  vertical-align: top;
+}
+
+.noviye-card .assessment > img:first-child {
+  margin-bottom: 15px;
+}
+
+.noviye-card h3, .noviye-card p {
+  line-height: 18.8px
+} 
+
+.noviye-card button {
+  width: 100%;
+  padding: 11px 0;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, .13);
+  border-radius: 100px;
+  border: none;
+  background-color: transparent;
+  margin-top: 12.21px;
+}
+
+/* NOVIYE TOVARY START */
+
+/* SERVICES START */
+
+.services {
+  margin: 37.62px 0 70px;
+  background-color: #f5f5f5;
+}
+
+.services-wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.services-wrapper .service * {
+  vertical-align: middle;
+  line-height: 130px;
+}
+
+.services-wrapper .service p {
+  display: inline-block;
+  margin-left: 19px;
+}
+
+/* SERVICES START */
+
+/* NEWS START */
+
+.news {
+  margin-left: 145px;
+  margin-top: 89px;
+}
+
+.news-cards {
+  display: flex;
+  justify-content: flex-start;
+  gap: 30px;
+}
+
+.news-card {
+  width: 350px;
+  margin: 28px 0 40px;
+}
+
+.news-card .image {
+  height: 250px;
+}
+
+.news-card .info {
+  border: 1px solid #efefef;
+  border-top: none;
+  padding: 20px 25px;
+}
+
+.news button {
+  padding: 17px 50px;
+  border-radius: 100px;
+}
+
+/* NEWS END */
